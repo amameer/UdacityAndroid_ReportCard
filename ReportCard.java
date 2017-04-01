@@ -41,11 +41,11 @@ public class ReportCard {
         else if (mGrade>=75)
             mGradeInLetter="C+";
         else if (mGrade>=70)
-            mGradeInLetter="D+";
+            mGradeInLetter="C";
         else if (mGrade>=65)
             mGradeInLetter="D+";
         else if (mGrade>=60)
-            mGradeInLetter="D+";
+            mGradeInLetter="D";
         else
             mGradeInLetter="F";
         return mGradeInLetter;
